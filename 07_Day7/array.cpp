@@ -28,6 +28,11 @@ int main()
         arr[i] = arr_item;
     }
 
+    // My code
+    for (int i = n - 1; i >= 0; i--){
+        cout << arr[i] << " ";
+    }
+
     return 0;
 }
 
